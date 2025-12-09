@@ -1,6 +1,5 @@
 <template>
   <section>
-    <!-- Línea 1: monto en pesos -->
     <p>
       Ingrese monto $ 
       <input
@@ -10,7 +9,6 @@
       />
     </p>
 
-    <!-- Línea 2: cotización + checkbox + fecha -->
     <p>
       Valor del dólar en $ 
       <input
@@ -30,7 +28,6 @@
       </span>
     </p>
 
-    <!-- Línea 3: resultado -->
     <p>
       Valor convertido USD {{ dolares.toFixed(2) }}
     </p>
